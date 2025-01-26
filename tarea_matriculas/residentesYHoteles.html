@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehículos residentes/hoteles</title>
+    <style>
+        body {
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 10%;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-bottom: 10%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vehículos residentes/hoteles</h1>
+    <form action="residentesYHoteles.php" method="post">
+        Matrícula: <input type="text" name="matricula" >
+        <br><br>
+        Dirección: <input type="text" name="direccion" >
+        <br><br>
+        Fecha Inicio: <input type="text" name="fecha_inicio" placeholder="dd/mm/aaaa">
+        <br><br>
+        Fecha Final: <input type="text" name="fecha_final" placeholder="dd/mm/aaaa">
+        <br><br>
+        Justificante / Reserva: <input type='file' name='fichero' accept=".pdf">
+        <br><br>
+        <input type="submit" name="enviar" value="Enviar">
+        <br><br>
+    </form>
+</body>
+</html>
