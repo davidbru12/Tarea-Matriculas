@@ -16,14 +16,14 @@ Tarea-Matriculas es una aplicación web en PHP para gestionar matrículas de est
 
 ## Configuración
 1. Clona el repositorio:
-   ```bash
+   ```
    git clone https://github.com/davidbru12/Tarea-Matriculas.git
    ```
 2. Configura la base de datos:
    - Crea una base en MySQL.
    - Ejecuta `database.sql`.
 3. Actualiza `config/db.php` con tus credenciales:
-   ```php
+   ```
    $host = 'localhost';
    $db = 'nombre_base_datos';
    $user = 'usuario';
@@ -46,7 +46,7 @@ Tarea-Matriculas/
 ## Contribuciones
 1. Haz un fork.
 2. Crea una rama:
-   ```bash
+   ```
    git checkout -b feature/nueva-funcionalidad
    ```
 3. Realiza cambios y abre un Pull Request.
